@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158200e8295d2f4ca1a96697acee947ea9a9a03763c597e489e324231ae6fd99c87d5"
+        },
+        "signature": {
+          "@value": "845829a201276761646472657373581cb2b88994f73fc9e68844f84834eec01fde120c9e15fe293a7ee39e1ea166686173686564f4584456657269667920445265702064726570316b3275676e393868386c7937647a7a796c707972666d6b71726c3070797279377a686c7a6a776e3775773070756c79667a6b395840e093bfc23e25406c5b4762e0d182d16704d2e4897a7bf3867234b323b4ff8a343bfc417c78e160ea8030a9dfdbf72690c8992a1c8c98d288a5d651ad9d95710e"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": ""
+    },
+    "email": {
+      "@value": ""
+    },
+    "givenName": {
+      "@value": "Cardano Ethical Oversight (CEO)"
+    },
+    "motivations": {
+      "@value": ""
+    },
+    "objectives": {
+      "@value": ""
+    },
+    "paymentAddress": {
+      "@value": "addr1q9celjj6m6tnnyqwxx7hlj52gx2d2kd5qjy04s7nfm6prr7faclp8mxewltjnve3w9ratz2ugkpp0zmhdcp25f0znpssd0x4tl"
+    },
+    "qualifications": {
+      "@value": ""
+    }
+  }
+}
