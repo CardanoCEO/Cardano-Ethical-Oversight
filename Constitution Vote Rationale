@@ -1,0 +1,43 @@
+Cardano Constitution to Replace the Interim Constitution
+
+Vote: NO
+
+Rationale: 
+Since the beginning of the CIP-1694 workshops, which introduced the Cardano on-chain governance model, little to no research was conducted to ensure the structure maintained the integrity and decentralization of the system. 
+This issue persisted throughout the drafting of the constitution across 50+ different countries. I personally conducted a workshop, and the process appeared guided, with a very limited scope of discussion. For example, our workshop only addressed three questions, which were chosen by the facilitator. The same happened in every other workshop. So, to claim that all articles of the constitution had “global consensus” is misleading.
+Everything culminated in Argentina in December 2024 at the Constitutional Convention, which I attended. As a delegate representing my country, I voted yes, as that was the overall consensus from my community. However, as a DRep, I no longer hold the responsibility to vote on their behalf but rather in the best interest of the Cardano Blockchain Ecosystem and my own delegators.
+The Argentina Constitutional Convention felt more like a formality than a substantive event. It did not adequately address key topics, such as the preamble. However, not everything was bad—several key changes were made regarding the Cardano treasury, including allowing multiple budgets throughout the year, more than one administrator, and requiring smart contracts and other blockchain-based tools to facilitate decision-making and ensure transparency.
+Why I Believe the Constitution Is Not Ready for On-Chain Implementation
+Definition of ADA Owner
+According to the constitution, an ADA holder is defined as someone who holds their private keys or chooses to have a third-party custodian manage them. Nowhere in the constitution is self-custody emphasized as a core ethos of crypto. This is a major issue because Cardano operates on a proof-of-stake model, allowing users to participate in governance using a 1 ADA = 1 vote mechanism.
+The constitution attempts to address this in Article III, Section 3:
+“Owners of ADA who use third-party custodians or other designees to hold their ADA may authorize or may withhold authorization for such third parties to vote on their behalf.”
+To me, this is an insufficient solution, as it leaves the decision up to custodians, who may or may not allow users to vote. It’s highly unlikely that major custodians will voluntarily implement such a feature. This effectively hands centralized exchanges like Coinbase and Binance enormous power over Cardano’s governance, which could be disastrous.
+Separation of Powers
+Currently, anyone can become a CC, DRep, and SPO simultaneously. However, Article III, Section 2 states that these are supposed to be three independent bodies providing checks and balances for the Cardano Blockchain:
+“Three independent governance bodies shall participate in voting for on-chain governance actions to provide checks and balances for the Cardano Blockchain, consisting of Delegated Representatives (DReps), Stake Pool Operators (SPOs), and the Constitutional Committee (CC).”
+I acknowledge that solving this issue without a KYC system is extremely difficult, but allowing individuals to hold multiple governance roles leaves the system vulnerable to bad actors consolidating power. The constitution addresses this through "social contracts," which assume that the community will call out individuals who abuse the system. However, I don’t believe this is a sufficient safeguard—it poses an existential threat to Cardano’s governance.
+Definitions
+During the Constitutional Convention, the issue of definitions was heavily debated. Ultimately, definitions became a separate, non-binding document that the CC may—but is not required to—use when interpreting the constitution.
+I believe definitions should have been part of the constitution, ensuring they require the same threshold for amendments. Now, they can be changed behind closed doors at Intersect. Whoever controls the definitions controls the truth—and, subsequently, reality.
+DRep & CC Compensation
+Article V, Section 5 states:
+“DReps who are representing delegators may be compensated for their efforts. DReps shall ensure that any compensation received in connection with their activities as a DRep is disclosed.”
+The key word here is “may.” This does not clarify who will pay DReps, leaving it open to interpretation.
+As of February 2025, Intersect includes DRep and CC compensation in its own budget. This is a massive conflict of interest, as DReps vote on treasury withdrawals. If DReps are paid, they should be compensated directly through the protocol, similar to how SPOs receive rewards.
+Guardrails on Net Change Limit (NCL)
+The current version of the constitution does not prevent a powerful proposer from setting the net change limit to 100% of the treasury and then requesting a withdrawal of the full amount. With enough votes, this could effectively drain the treasury.
+Instead, the NCL should be formulaic—based on Cardano’s annual inflows, inflation, and a fixed formula—so it is not left to human interpretation.
+Cardano “Administrator”
+The constitution does not define what it means to become an "administrator" and receive direct funding from the treasury. This is a critical aspect of decentralization, as it should provide a clear path for projects or organizations to access treasury funds without relying on Intersect’s bureaucracy.
+Info Actions
+There are conflicting governance rules: Article III, Section 4 states that "Info" actions are non-binding, while Article VII, Section 4 suggests they are required for budgeting and treasury withdrawals.
+This issue was acknowledged at the Constitutional Convention and pushed to a “future workstream” to create a new governance action. While not a major issue, it highlights a lack of foresight in designing the governance structure.
+Third-Party Voting
+I don’t believe we can have a true democracy if we allow third-party custodians like centralized exchanges (CEXs) and decentralized exchanges (DEXs) to vote on behalf of users with their ADA. This issue, as mentioned earlier, falls under the same problem as the definition of an ADA owner.
+Treasury Auditor
+Article IV, Section 4 requires treasury-funded actions to include audits and oversight. However, a major loophole exists: an "administrator" could manipulate the auditor.
+The community—not the administrator receiving the funds—should decide who audits treasury spending.
+DRep & CC Liability Clause
+DReps and CC members may have to reveal their identities, exposing themselves to security and legal risks. However, the constitution does not include any provisions to protect them.
+Preamble: The preamble lacks any inspirational messaging or reinforcement of core ethos, such as peer-reviewed research, striving for decentralization, and promoting self-sovereignty.
