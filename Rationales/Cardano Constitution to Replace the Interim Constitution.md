@@ -6,7 +6,8 @@
 
 ## Vote Decision: NO
 
-**Rationale**
+## **Rationale**
+
 Since the inception of the CIP-1694 workshops, which introduced the Cardano on-chain governance model, little to no research has been conducted to ensure that the governance structure maintains both the integrity and decentralization of the system. This issue persisted throughout the drafting of the constitution across more than 50 different countries.
 
 As participants in this process, we observed that discussions were often guided toward a predetermined outcome, limiting the scope of debate. For example, during our own workshop, discussions were restricted to only three facilitator-chosen questions—this was a pattern across all workshops. The claim that all articles of the constitution had “global consensus” is therefore misleading.
