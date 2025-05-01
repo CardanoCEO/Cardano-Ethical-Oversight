@@ -65,20 +65,8 @@
     "image": {
       "@type": "ImageObject",
       "contentUrl": "",
-      "sha256": "38a9f254246a0e7205818b309888690accdd5df1ea1a4c76c547e3a215ef6617"
+      "sha256": "c680de0dd6580e8efe2791e56c46a9cf78235155a469a781cea2f208c0e6e0ee"
     },
-    "paymentAddress": "addr1q9celjj6m6tnnyqwxx7hlj52gx2d2kd5qjy04s7nfm6prr7faclp8mxewltjnve3w9ratz2ugkpp0zmhdcp25f0znpssd0x4tl",
-    "references": [
-      {
-        "@type": "Link",
-        "label": "LinkTree",
-        "uri": "https://linktr.ee/FREDToken"
-      },
-      {
-        "@type": "Identity",
-        "label": "X Account",
-        "uri": "https://x.com/FredGregaard"
-      }
-    ]
+    "paymentAddress": "addr1q9celjj6m6tnnyqwxx7hlj52gx2d2kd5qjy04s7nfm6prr7faclp8mxewltjnve3w9ratz2ugkpp0zmhdcp25f0znpssd0x4tl"
   }
 }
