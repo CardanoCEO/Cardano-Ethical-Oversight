@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Cardano Ethical Oversight (CEO)",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://pbs.twimg.com/profile_images/1914449578432114688/EMQFQjOk_400x400.jpg",
+      "sha256": "34ad04113281d8a922de993d6059bd07904000314571a238b278478e5a2532d7"
+    },
+    "motivations": "Cardano governance is at risk of being dominated by a small group of insiders rather than the broader community. We formed this coalition to fight for a truly decentralized, transparent, and ethical governance system, free from manipulation and undue influence.\n\nLearn more:\nhttps://github.com/CardanoCEO/Cardano-Ethical-Oversight/blob/27408a5e4831165136270e5b8b7caf215dfa5e74/Profile.md/Motivations.md",
+    "objectives": "We are a DRep group united in the fight against centralization efforts by certain individuals and entities within the Cardano ecosystem. Our goal is to uphold decentralization, transparency, and ethical governance. \n\nLearn more:\nhttps://github.com/CardanoCEO/Cardano-Ethical-Oversight/blob/27408a5e4831165136270e5b8b7caf215dfa5e74/Profile.md/Motivations.md",
+    "paymentAddress": "addr1q9celjj6m6tnnyqwxx7hlj52gx2d2kd5qjy04s7nfm6prr7faclp8mxewltjnve3w9ratz2ugkpp0zmhdcp25f0znpssd0x4tl",
+    "qualifications": "We are a coalition of developers, researchers, business owners, traders, and committed community members who share a deep belief in Cardano’s peer-reviewed foundation, inclusive accountability model, and formal methods approach.\n\nOur group is drawn to Cardano because of its mathematically sound, scientifically rigorous, and self-sovereign principles. We believe in transparent governance, decentralized decision-making, and empowering ADA holders to control their data, assets, and representation in governance.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "LinkTree",
+        "uri": "https://linktr.ee/FREDToken"
+      },
+      {
+        "@type": "Identity",
+        "label": "X Account",
+        "uri": "https://x.com/FredGregaard"
+      }
+    ]
+  }
+}
